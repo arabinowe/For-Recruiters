@@ -5,6 +5,9 @@ Example works for recruiters can be found in this repository.
 
 <img src="https://user-images.githubusercontent.com/29517585/211059284-e9ce08ad-d1c1-4fad-844f-724ea9b62add.jpg" align="right" height="250" width="250">  
 
+
+
+
 ## Includes:  
 - SQL Code Snippets ranging in complexity
 - Power BI Files, Power BI Visualizations
