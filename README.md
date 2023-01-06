@@ -5,6 +5,7 @@ Example works for recruiters can be found in this repository. Contact me at http
 ## Includes:
 - SQL Code Snippets ranging in complexity
 - **Public** Webpages from Previous Employment
+- Publication Excerpts
 - Power BI Files, Power BI Visualizations
 - Tableau Files, Tableau Visualizations
 - Python Scripts
