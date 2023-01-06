@@ -10,7 +10,8 @@ Example works for recruiters can be found in this repository.
 - Power BI Files, Power BI Visualizations
 - Tableau Files, Tableau Visualizations
 - Python Scripts
-* *All data are purely **open-source/non-proprietary** and serve only to inform recruiters about my skillset.* *
+
+*All data are purely **open-source/non-proprietary** and serve only to inform recruiters about my skillset.*
 
 <a href="url"><img src="https://i0.wp.com/learn.onemonth.com/wp-content/uploads/2019/07/image2-1.png?w=600&ssl=1" align="center" height="125" width="225" ></a>
 <a href="url"><img src="https://logodownload.org/wp-content/uploads/2019/10/python-logo-0.png" align="center" height="200" width="225" ></a>
