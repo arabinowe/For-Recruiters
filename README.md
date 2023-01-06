@@ -18,4 +18,4 @@ Example works for recruiters can be found in this repository.
 <a href="url"><img src="https://cdn-dhhph.nitrocdn.com/YwrWfrMMnPrQoiMcCnngShsqFHLItupA/assets/static/optimized/rev-6e21eac/wp-content/uploads/2016/08/maxresdefaultreduced.jpg" align="center" height="100" width="200" ></a>
 <a href="url"><img src="https://logos-world.net/wp-content/uploads/2021/10/Tableau-Logo-700x394.png" align="center" height="125" width="200" ></a>
 
-About me: Previous climate-tech crowdfunding, hedge fund fintech, fundamental analysis, hedge fund recruiting, professional video gamer, and digital marketing researcher/consultant for the major CPG conglomerates.
+About Me: Previous climate-tech crowdfunding, hedge fund fintech, fundamental analysis, hedge fund recruiting, professional video gamer, and digital marketing researcher/consultant for the major CPG conglomerates.
