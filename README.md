@@ -1,7 +1,6 @@
 # Aaron Rabinowe's Code and Visualization Public Portfolio
 
-Example works for recruiters can be found in this repository.
-
+<div>Example works for recruiters can be found in this repository.</div>
 ### Contact me at https://www.linkedin.com/in/arabinowe/
 <div class="square">
     <div>
