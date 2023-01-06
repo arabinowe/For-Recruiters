@@ -10,6 +10,7 @@ Example works for recruiters can be found in this repository.
 - Power BI Files, Power BI Visualizations
 - Tableau Files, Tableau Visualizations
 - Python Scripts
+- Excel Models and Templates
 
 *All data are purely **open-source/non-proprietary** and serve only to inform recruiters about my skillset.*
 
