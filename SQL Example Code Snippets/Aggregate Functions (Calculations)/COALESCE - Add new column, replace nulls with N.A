@@ -1,0 +1,8 @@
+## Look through dept_manager find first null, then dept_name, set NULLs to corresponding value, else 'N/A'.
+SELECT 
+    dept_no,
+    dept_name,
+    COALESCE(dept_name, dept_no, 'N/A') AS dept_manager
+FROM
+    departments_dup
+ORDER BY dept_name ASC;
