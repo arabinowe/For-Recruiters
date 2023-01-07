@@ -1,4 +1,5 @@
 SELECT 
     SUM(salary)
 FROM
-    salaries;
+    salaries
+WHERE from_date > '1997-01-01';
