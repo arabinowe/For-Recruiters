@@ -6,10 +6,10 @@ Example works for recruiters can be found in this repository. Contact me at http
 - SQL Code Snippets Ranging in Complexity - Available
 - **Public** Webpages from Previous Employment - Available
 - Publication Excerpts - Available
-- Power BI Files, Power BI Visualizations - Adding soon
-- Tableau Files, Tableau Visualizations - Adding soon
-- Python Scripts - Adding soon
-- Excel Models and Templates - Adding soon
+- Power BI Files, Power BI Visualizations - Adding Soon
+- Tableau Files, Tableau Visualizations - Adding Soon
+- Python Scripts - Adding Soon
+- Excel Models and Templates - Adding Soon
 
 *All data are purely **open-source/non-proprietary** and serve only to inform recruiters about my skillset.*
 
