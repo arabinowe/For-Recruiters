@@ -20,4 +20,4 @@ About Me: Previous climate-tech crowdfunding, hedge fund fintech, fundamental an
 <a href="url"><img src="https://cdn-dhhph.nitrocdn.com/YwrWfrMMnPrQoiMcCnngShsqFHLItupA/assets/static/optimized/rev-6e21eac/wp-content/uploads/2016/08/maxresdefaultreduced.jpg" align="center" height="100" width="200" ></a>
 <a href="url"><img src="https://logos-world.net/wp-content/uploads/2021/10/Tableau-Logo-700x394.png" align="center" height="125" width="200" ></a>
 
-
+Credit to https://data.world/anilsharma87 for the e-commerce dataset. https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-e-commerce-sales-data
