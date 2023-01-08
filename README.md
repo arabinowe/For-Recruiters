@@ -3,13 +3,13 @@ Example works for recruiters can be found in this repository. Contact me at http
 <p><img src="https://user-images.githubusercontent.com/29517585/211059284-e9ce08ad-d1c1-4fad-844f-724ea9b62add.jpg"  height="250" width="250"><br/></P>
 
 ## Includes:
-- SQL Code Snippets Ranging in Complexity
-- **Public** Webpages from Previous Employment
-- Publication Excerpts
-- Power BI Files, Power BI Visualizations
-- Tableau Files, Tableau Visualizations
-- Python Scripts
-- Excel Models and Templates
+- SQL Code Snippets Ranging in Complexity - Available
+- **Public** Webpages from Previous Employment - Available
+- Publication Excerpts - Available
+- Power BI Files, Power BI Visualizations - Adding soon
+- Tableau Files, Tableau Visualizations - Adding soon
+- Python Scripts - Adding soon
+- Excel Models and Templates - Adding soon
 
 *All data are purely **open-source/non-proprietary** and serve only to inform recruiters about my skillset.*
 
