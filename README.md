@@ -22,4 +22,4 @@ About Me: Previous climate-tech crowdfunding, hedge fund fintech, fundamental an
 
 
 Credit to Giuseppe Maxia aka datacharmer https://github.com/datacharmer/test_db for the employees dataset.
-Credit to https://data.world/anilsharma87 for the e-commerce dataset. https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-e-commerce-sales-data
+<br>Credit to https://data.world/anilsharma87 for the e-commerce dataset. https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-e-commerce-sales-data</br>
