@@ -9,4 +9,4 @@ FROM
         JOIN
     departments d ON de.dept_no = d.dept_no
 GROUP BY d.dept_name
-ORDER BY avg(salary) DESC;
+ORDER BY avg_salary DESC;
