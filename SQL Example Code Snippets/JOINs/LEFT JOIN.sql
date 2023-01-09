@@ -1,9 +1,9 @@
 SELECT 
-    d.dept_no, m.emp_no, d.dept_name
+    e.emp_no, d.emp_no, e.first_name, e.last_name, m.dept_no
 FROM
-    departments_dup d
+    dept_manager m
         LEFT JOIN
-    dept_manager_dup m ON m.dept_no = d.dept_no
-ORDER BY d.dept_no;
-
+    employees e ON e.emp_no = d.emp_no
+WHERE e.last_name='Markovitch'
+ORDER BY e.emp_no;
 
