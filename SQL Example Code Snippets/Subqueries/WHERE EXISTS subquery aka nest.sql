@@ -1,6 +1,7 @@
 ### EXISTS is similiar to IN, but EXISTS is much faster so it gets used for very large datasets
 ### Subqueries are not the most performant but are sometimes necessary and important
 ### Subqueries are often much more intuitive
+### Some people prefer subqueries because they are often much easier to read
 
 SELECT 	
 e.first_name, e.last_name
