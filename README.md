@@ -4,11 +4,11 @@ Example works for recruiters can be found in this repository. Contact me at http
 
 ## Includes:
 - SQL Code Snippets Ranging in Complexity - Available
+- Python Scripts - REST API Examples added, adding other topics and fundamental code snippet examples 
 - **Public** Webpages from Previous Employment - Available
 - Publication Excerpts - Available
 - Power BI Files, Power BI Visualizations - Adding Soon
 - Tableau Files, Tableau Visualizations - Adding Soon
-- Python Scripts - Adding Soon
 - Excel Models and Templates - Adding Soon
 
 *All data are purely **open-source/non-proprietary** and serve only to inform recruiters about my skillset.*
