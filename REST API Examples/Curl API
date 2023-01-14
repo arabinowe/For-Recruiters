@@ -2,8 +2,6 @@
 
 OUTPUT
 
-!curl -X GET https://api.github.com
-
 {
   "current_user_url": "https://api.github.com/user",
   "current_user_authorizations_html_url": "https://github.com/settings/connections/applications{/client_id}",
