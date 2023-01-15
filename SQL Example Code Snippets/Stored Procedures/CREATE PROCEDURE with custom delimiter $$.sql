@@ -1,0 +1,9 @@
+USE employees;
+
+DELIMITER $$
+CREATE PROCEDURE test()
+BEGIN
+	SELECT * FROM employees
+	LIMIT 50;
+END$$
+DELIMITER ;
