@@ -11,3 +11,5 @@ END$$
 DELIMITER ;
 
 CALL employees.select_employees();
+
+CALL select_employees();
