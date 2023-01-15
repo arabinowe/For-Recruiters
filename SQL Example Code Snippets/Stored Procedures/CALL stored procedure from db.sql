@@ -10,6 +10,6 @@ BEGIN
 END$$
 DELIMITER ;
 
+## both work unless you haven't set a default database
 CALL employees.select_employees();
-
 CALL select_employees();
