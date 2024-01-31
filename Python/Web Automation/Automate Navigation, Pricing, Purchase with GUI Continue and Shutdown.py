@@ -257,6 +257,8 @@ for i in range(10):
     shop_wizard(driver, price,item_name="One Hundred Dubloon Coin")
     restaurant_loop()
     quickstock_sdb()
+    counter = 0
+    print(f'That\'s loop {i}!')
 
 # Close the WebDriver and exit
 driver.quit()
