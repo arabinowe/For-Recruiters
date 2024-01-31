@@ -214,10 +214,13 @@ def update_counter_label(counter):
     counter_label.config(text=str(counter))
 
 def restaurant_loop():
-    global window
+    global window, driver  # Ensure driver is declared as global if it's initialized outside this function
     url = "http://www.neopets.com/pirates/process_restaurant.phtml?type=add&item=15721"
     counter = 0
-    while counter < 10:
+    attempts = 0
+    max_attempts = 10
+
+    while counter < 10 and attempts < max_attempts:
         try:
             driver.get(url)
             element = WebDriverWait(driver, 6).until(
@@ -225,13 +228,27 @@ def restaurant_loop():
             )
             element.click()
             if "Return to Krawk Island!!!" in driver.page_source:
-             counter += 1
+                counter += 1
+                attempts = 0  # Reset attempts on successful action
+            else:
+                attempts += 1  # Increment attempts if the expected outcome isn't met
             window.after(0, update_counter_label, counter)  # Thread-safe update
-            print(str(counter))
+            print(f"Counter: {counter}")
             time.sleep(2)
         except Exception as e:
             print(f"Loop Interrupted: {e}")
-            break  # Break the loop if there's an exception (e.g., WebDriver closed)
+            attempts += 1  # Increment attempts on exception
+            time.sleep(2)  # Wait a bit before trying again
+
+        if attempts >= max_attempts:
+            print("Maximum attempts reached, exiting loop.")
+            break
+
+    if counter < 10:
+        print("Failed to complete 10 iterations.")
+    else:
+        print("Completed 10 iterations successfully.")
+
 
 # Main loop
 login()
