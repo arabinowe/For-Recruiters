@@ -17,7 +17,7 @@ About Me: Previous climate-tech crowdfunding, hedge fund fintech, fundamental an
 
 <a href="url"><img src="https://i0.wp.com/learn.onemonth.com/wp-content/uploads/2019/07/image2-1.png?w=600&ssl=1" align="center" height="125" width="200" ></a>
 <a href="url"><img src="https://logodownload.org/wp-content/uploads/2019/10/python-logo-0.png" align="center" height="200" width="200" ></a>
-<a href="url"><img src="https://cdn-dhhph.nitrocdn.com/YwrWfrMMnPrQoiMcCnngShsqFHLItupA/assets/static/optimized/rev-6e21eac/wp-content/uploads/2016/08/maxresdefaultreduced.jpg" align="center" height="100" width="200" ></a>
+<a href="url"><img src="[https://cdn-dhhph.nitrocdn.com/YwrWfrMMnPrQoiMcCnngShsqFHLItupA/assets/static/optimized/rev-6e21eac/wp-content/uploads/2016/08/maxresdefaultreduced.jpg](https://upload.wikimedia.org/wikipedia/commons/d/d5/Selenium_Logo.png)" align="center" height="100" width="200" ></a>
 <a href="url"><img src="https://logos-world.net/wp-content/uploads/2021/10/Tableau-Logo-700x394.png" align="center" height="125" width="200" ></a>
 
 
