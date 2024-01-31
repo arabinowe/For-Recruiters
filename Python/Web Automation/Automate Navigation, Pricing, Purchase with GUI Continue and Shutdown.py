@@ -91,7 +91,7 @@ chrome_options.add_argument(f"webdriver.chrome.driver={chrome_driver_path}")
 
 driver = webdriver.Chrome(options=chrome_options)
 
-price = 66000  # Your target price
+price = 68000  # Your target price
 item_name = "One Hundred Dubloon Coin"
 # Buys Dubloons!
 def shop_wizard(driver, price, item_name):
@@ -133,7 +133,20 @@ def shop_wizard(driver, price, item_name):
             # Click on the shop owner's name of the listing with the lowest price
             shop_owner_link = lowest_price_element.find_element(By.CSS_SELECTOR, "a")
             shop_owner_link.click()
-            # Additional actions after clicking the shop owner link can go here
+            print("Clicked on the shop owner's name.")
+            
+            # Wait for the shop item to be clickable
+            shop_item = WebDriverWait(driver, 10).until(
+                EC.element_to_be_clickable((By.XPATH, "//div[contains(@style, 'text-align: center')]/table/tbody/tr/td/a/img"))
+            )
+            shop_item.click()
+            print("Clicked on the shop item.")
+
+            # Wait for the alert to be present and accept it
+            WebDriverWait(driver, 10).until(EC.alert_is_present())
+            alert = Alert(driver)
+            alert.accept()
+            print("Accepted the alert.")
             return True
         else:
             # If no price is low enough, click the resubmit button
@@ -142,6 +155,7 @@ def shop_wizard(driver, price, item_name):
             )
             resubmit_button.click()
             return False
+
     except NoSuchElementException:
         print("No such element found")
         return False
@@ -149,7 +163,7 @@ def shop_wizard(driver, price, item_name):
         print("Loading took too much time!")
         return False
     except Exception as e:
-        print(f"Unexpected error when checking prices: {e}")
+        print(f"Unexpected error when checking prices or clicking items: {e}")
         return False
 
     try:
@@ -221,9 +235,11 @@ def restaurant_loop():
 
 # Main loop
 login()
-driver.get(r'https://www.neopets.com/shops/wizard.phtml')
-shop_wizard(driver, price,item_name="One Hundred Dubloon Coin")
-#main_loop()
+for i in range(10):
+    driver.get(r'https://www.neopets.com/shops/wizard.phtml')
+    shop_wizard(driver, price,item_name="One Hundred Dubloon Coin")
+    restaurant_loop()
+    quickstock_sdb()
 
 # Close the WebDriver and exit
 driver.quit()
