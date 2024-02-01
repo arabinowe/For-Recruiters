@@ -5,7 +5,7 @@
 
 <table>
 <tr>
-<td valign="center" width="75%">
+<td valign="center" align="center" width="75%">
 
 Welcome to my public portfolio! Here, you'll find a curated selection of my work,
 showcasing my skills in data analytics, Python scripting, and more.
@@ -13,6 +13,7 @@ If you're a recruiter or just curious about my work, you're in the right place!
 
 </td>
 <td valign="center" width="25%">
+
 
 <a href="url"><img src="https://user-images.githubusercontent.com/29517585/211059284-e9ce08ad-d1c1-4fad-844f-724ea9b62add.jpg" align="right" height="199" width="200" style="object-fit: contain;"></a>
 
