@@ -258,7 +258,7 @@ for i in range(10):
     restaurant_loop()
     quickstock_sdb()
     counter = 0
-    print(f'That\'s loop {i}!')
+    print(f'That\'s loop {i+1}!')
 
 # Close the WebDriver and exit
 driver.quit()
