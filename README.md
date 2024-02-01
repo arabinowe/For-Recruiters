@@ -1,9 +1,9 @@
+
 # Aaron Rabinowe's Public Portfolio 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Aaron_Rabinowe-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/arabinowe/)
 
 Welcome to my public portfolio! Here, you'll find a curated selection of my work, showcasing my skills in data analytics, Python scripting, and more. If you're a recruiter or just curious about my work, you're in the right place!
-
 
 <a href="url"><img src="https://user-images.githubusercontent.com/29517585/211059284-e9ce08ad-d1c1-4fad-844f-724ea9b62add.jpg" align="center" height="199" width="200"></a>
 
@@ -31,4 +31,4 @@ With a background in climate-tech crowdfunding, hedge fund fintech, fundamental 
 ## Credits:
 
 - Employees dataset by Giuseppe Maxia aka datacharmer. [View on GitHub](https://github.com/datacharmer/test_db)
-- E-commerce dataset by Anil Sharma. [View on Data.World](https://data.world/anilsharma87) | [Kaggle Dataset](https://www.kaggle
+- E-commerce dataset by Anil Sharma. [View on Data.World](https://data.world/anilsharma87) | [Kaggle Dataset](https://www.kaggle.com/anilsharma87)
