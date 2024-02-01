@@ -12,6 +12,12 @@
 
 <a href="url"><img src="https://user-images.githubusercontent.com/29517585/211059284-e9ce08ad-d1c1-4fad-844f-724ea9b62add.jpg" align="center" height="199" width="200"></a>
 
+## Tools and Technologies:
+
+```bash
+# Favorite tools and technologies I use
+ "Python, Power BI, Tableau, SQL, Excel"
+```
 
 ## What's Inside:
 
@@ -34,12 +40,6 @@
 - Skills: "Analytical and strategic thinking abilities."
 ```
 
-## Tools and Technologies:
-
-```bash
-# Favorite tools and technologies I use
- "Python, Power BI, Tableau, SQL, Excel"
-```
 
 ## Credits:
 
