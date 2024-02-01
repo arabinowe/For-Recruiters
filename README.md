@@ -9,10 +9,9 @@
 + If you're a recruiter or just curious about my work, you're in the right place!
 ```
 
-```html
-<!-- Image linked to a placeholder URL, replace with actual URL if needed -->
+
 <a href="url"><img src="https://user-images.githubusercontent.com/29517585/211059284-e9ce08ad-d1c1-4fad-844f-724ea9b62add.jpg" align="center" height="199" width="200"></a>
-```
+
 
 ## What's Inside:
 
@@ -39,7 +38,7 @@
 
 ```bash
 # Favorite tools and technologies I use
-echo "Python, Power BI, Tableau, SQL, Excel"
+ "Python, Power BI, Tableau, SQL, Excel"
 ```
 
 ## Credits:
