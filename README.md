@@ -4,7 +4,8 @@
 
 Welcome to my public portfolio! Here, you'll find a curated selection of my work, showcasing my skills in data analytics, Python scripting, and more. If you're a recruiter or just curious about my work, you're in the right place!
 
-![Aaron Rabinowe](https://user-images.githubusercontent.com/29517585/211059284-e9ce08ad-d1c1-4fad-844f-724ea9b62add.jpg)
+
+<a href="url"><img src="https://user-images.githubusercontent.com/29517585/211059284-e9ce08ad-d1c1-4fad-844f-724ea9b62add.jpg" align="center" height="125" width="200"></a>
 
 ## What's Inside:
 
