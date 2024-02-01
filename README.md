@@ -1,5 +1,7 @@
 # Aaron Rabinowe's Public Portfolio 
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aaron_Rabinowe-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/arabinowe/)
+
 Welcome to my public portfolio! Here, you'll find a curated selection of my work, showcasing my skills in data analytics, Python scripting, and more. If you're a recruiter or just curious about my work, you're in the right place!
 
 ![Aaron Rabinowe](https://user-images.githubusercontent.com/29517585/211059284-e9ce08ad-d1c1-4fad-844f-724ea9b62add.jpg)
@@ -19,17 +21,13 @@ Welcome to my public portfolio! Here, you'll find a curated selection of my work
 
 With a background in climate-tech crowdfunding, hedge fund fintech, fundamental analysis, and more, I bring a diverse skill set and a unique perspective to every project. My experience as a professional video gamer and digital marketing consultant for major CPG conglomerates has honed my analytical and strategic thinking abilities.
 
-## Connect with Me:
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aaron_Rabinowe-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/arabinowe/)
-
 ## Tools and Technologies:
 
-![SQL](https://i0.wp.com/learn.onemonth.com/wp-content/uploads/2019/07/image2-1.png)
-![Python](https://logodownload.org/wp-content/uploads/2019/10/python-logo-0.png)
-![Tableau](https://logos-world.net/wp-content/uploads/2021/10/Tableau-Logo-700x394.png)
+<a href="url"><img src="https://i0.wp.com/learn.onemonth.com/wp-content/uploads/2019/07/image2-1.png?w=600&ssl=1" align="center" height="125" width="200"></a>
+<a href="url"><img src="https://logodownload.org/wp-content/uploads/2019/10/python-logo-0.png" align="center" height="200" width="200"></a>
+<a href="url"><img src="https://logos-world.net/wp-content/uploads/2021/10/Tableau-Logo-700x394.png" align="center" height="125" width="200"></a>
 
 ## Credits:
 
 - Employees dataset by Giuseppe Maxia aka datacharmer. [View on GitHub](https://github.com/datacharmer/test_db)
-- E-commerce dataset by Anil Sharma. [View on Data.World](https://data.world/anilsharma87) | [Kaggle Dataset](https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-e-commerce-sales-data)
+- E-commerce dataset by Anil Sharma. [View on Data.World](https://data.world/anilsharma87) | [Kaggle Dataset](https://www.kaggle
