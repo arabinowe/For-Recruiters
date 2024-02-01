@@ -8,7 +8,7 @@
 <td valign="center" align="center" width="75%">
 
 Welcome to my public portfolio! Here, you'll find a curated selection of my work,
-showcasing my skills in data analytics, Python scripting, and more.
+showcasing my skills in data analytics, Python scripting, and more. I especially love automating things!
 If you're a recruiter or just curious about my work, you're in the right place!
 
 </td>
@@ -25,7 +25,7 @@ If you're a recruiter or just curious about my work, you're in the right place!
 
 ```bash
 # Favorite tools and technologies I use
-"Python, Power BI, Tableau, SQL, Excel"
+"Python, Excel, Power BI, Tableau, SQL"
 ```
 
 ## What's Inside:
