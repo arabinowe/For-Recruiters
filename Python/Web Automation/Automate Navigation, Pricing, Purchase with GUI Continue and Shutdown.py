@@ -15,6 +15,7 @@ import time
 # Flag to control the loop based on GUI action
 continue_flag = False
 shutdown_flag = False
+program_running = True  # Added program_running flag
 
 # Function to be called when the continue button is pressed
 def on_yes_button_pressed():
@@ -23,8 +24,9 @@ def on_yes_button_pressed():
 
 # Function to be called when the shutdown button is pressed
 def on_shutdown_button_pressed():
-    global shutdown_flag, driver
+    global shutdown_flag, driver, program_running
     shutdown_flag = True
+    program_running = False  # Set program_running to False to signal program termination
     try:
         driver.quit()  # Close the WebDriver to interrupt the loop
     except Exception as e:
@@ -61,16 +63,18 @@ tkinter_thread.start()
 
 # Move all items into safety deposit box to protect items from restaurant loop
 def quickstock_sdb():
-    driver.get("https://www.neopets.com/quickstock.phtml")
-    driver.find_element(By.XPATH, "//input[@type='radio' and @name='checkall' and contains(@onclick, 'check_all(2);')]").click()
-    driver.find_element(By.XPATH, "//input[@type='submit' and @value='Submit' and contains(@onclick, 'check_discard()')]").click()
+    try:
+        driver.get("https://www.neopets.com/quickstock.phtml")
+        driver.find_element(By.XPATH, "//input[@type='radio' and @name='checkall' and contains(@onclick, 'check_all(2);')]").click()
+    except Exception as e:
+        print(f"An error occurred in quickstock_sdb(): {e}")
 
 
 
 def main_loop():
-    global continue_flag, shutdown_flag
+    global continue_flag, shutdown_flag, program_running
     login()
-    while True:
+    while program_running:  # Check program_running at the beginning of each iteration
         if shutdown_flag:
             break
         restaurant_loop()
@@ -78,6 +82,7 @@ def main_loop():
             continue_flag = False
             continue
     time.sleep(1)
+
         
 # Set up Chrome WebDriver
 chrome_options = webdriver.ChromeOptions()
@@ -91,7 +96,7 @@ chrome_options.add_argument(f"webdriver.chrome.driver={chrome_driver_path}")
 
 driver = webdriver.Chrome(options=chrome_options)
 
-price = 68000  # Your target price
+price = 70000  # Your target price
 item_name = "One Hundred Dubloon Coin"
 # Buys Dubloons!
 def shop_wizard(driver, price, item_name):
@@ -254,11 +259,13 @@ def restaurant_loop():
 login()
 for i in range(10):
     driver.get(r'https://www.neopets.com/shops/wizard.phtml')
-    shop_wizard(driver, price,item_name="One Hundred Dubloon Coin")
+    shop_wizard(driver, price, item_name="One Hundred Dubloon Coin")
     restaurant_loop()
     quickstock_sdb()
     counter = 0
-    print(f'That\'s loop {i+1}!')
+    print(f'That\'s loop {i}!')
+    if not program_running:  # Check program_running at the end of each iteration
+        break  # Exit the main loop if program_running is False
 
 # Close the WebDriver and exit
 driver.quit()
