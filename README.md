@@ -4,7 +4,7 @@ Example works for recruiters can be found in this repository. Contact me at http
 
 ## Includes:
 - SQL Code Snippets Ranging in Complexity - Available
-- Python Scripts - REST API Examples added, Web Scraping, Web Automation Tools
+- Python Scripts - Web Scraping, Automation Scripts
 - **Public** Webpages from Previous Employment - Available
 - Publication Excerpts - Available
 - Power BI Files, Power BI Visualizations - Adding Soon
