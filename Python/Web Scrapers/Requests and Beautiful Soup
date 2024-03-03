@@ -1,0 +1,80 @@
+import requests
+from bs4 import BeautifulSoup
+import time
+import random
+import datetime
+
+class WebSessionManager:
+    def __init__(self, username, password, proxy=None):
+        self.session = requests.Session()
+        if proxy:
+            self.session.proxies.update(proxy)
+        self.base_url = 'https://example.com'
+        self.headers = {
+            'Referer': 'https://example.com/referrer_page',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        }
+        self.username = username
+        self.password = password
+
+    def login(self):
+        login_data = {
+            'username': self.username,
+            'password': self.password,
+            # Add other form fields as necessary
+        }
+        response = self.session.post(f'{self.base_url}/login_endpoint', data=login_data, headers=self.headers)
+        if response.status_code == 200:
+            print("Login successful!")
+        else:
+            print("Login failed!")
+
+    def fetch_data(self):
+        response = self.session.get(f'{self.base_url}/data_endpoint', headers=self.headers)
+        if response.status_code == 200:
+            soup = BeautifulSoup(response.content, 'html.parser')
+            # Example of parsing data from the page
+            data_element = soup.find('div', {'class': 'data-class'})
+            if data_element:
+                print("Data fetched successfully.")
+                return data_element.text
+            else:
+                print("Data not found.")
+                return None
+        else:
+            print("Failed to fetch data.")
+            return None
+
+    def perform_action(self, amount):
+        action_data = {
+            'type': 'action_type',
+            'amount': amount,  # Assuming the action requires an amount
+        }
+        response = self.session.post(f'{self.base_url}/action_endpoint', data=action_data, headers=self.headers)
+        if response.status_code == 200 and "confirmation_message" in response.text:
+            print("Action performed successfully.")
+        else:
+            print("Failed to perform action.")
+
+    def log_data(self, data):
+        timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+        filename = f"{self.username}_{timestamp}.txt"
+        with open(filename, 'w') as file:
+            file.write(data)
+        print(f"Data logged to {filename}.")
+
+# Example Usage
+credentials = [
+    {"username": "exampleUser", "password": "examplePass", "proxy": {"http": "http://exampleProxy", "https": "https://exampleProxy"}},
+    # Add more as needed
+]
+
+for cred in credentials:
+    web_session = WebSessionManager(cred["username"], cred["password"], proxy=cred["proxy"])
+    web_session.login()
+    time.sleep(random.uniform(1, 5))
+    data = web_session.fetch_data()
+    if data:
+        web_session.log_data(data)
+    time.sleep(random.uniform(1, 3))
+    web_session.perform_action('100')  # Example amount
