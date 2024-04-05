@@ -8,7 +8,7 @@
 <td valign="center" align="center" width="75%">
 
 Welcome to my public portfolio! Here, you'll find a curated selection of my work,
-showcasing my skills in data analytics, Python scripting, web automations, and more.
+showcasing my skills in python scripting, data analytics, web automations, and more.
 If you're a recruiter or just curious about my work, you're in the right place!
 
 [I'm especially proud of my web session automation project](https://github.com/arabinowe/For-Recruiters/blob/main/Python/Web%20Session%20Automator%20with%20Cookie%20Syncing.py)
