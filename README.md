@@ -46,7 +46,7 @@ If you're a recruiter or just curious about my work, you're in the right place!
 ## About Me:
 
 ```yaml
-- Background: "Climate-tech crowdfunding, hedge fund fintech, fundamental analysis."
+- Background: "Solar energy pricing, climate-tech crowdfunding, hedge fund fintech, fundamental analysis."
 - Experience: "Professional video gamer, digital marketing consultant for major CPG conglomerates."
 - Skills: "Analytical and strategic thinking abilities."
 ```
