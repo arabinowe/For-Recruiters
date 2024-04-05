@@ -8,7 +8,7 @@
 <td valign="center" align="center" width="75%">
 
 Welcome to my public portfolio! Here, you'll find a curated selection of my work,
-showcasing my skills in data analytics, Python scripting, and more. I especially love automating things!
+showcasing my skills in data analytics, Python scripting, web automations, and more.
 If you're a recruiter or just curious about my work, you're in the right place!
 
 </td>
